@@ -1,0 +1,32 @@
+# hq9plus README
+
+################
+# Installation #
+################
+
+To compile hq9plus, type `make'. If everything goes well, you'll have a file
+called `hq9plus' in the current directory -- that is hq9plus's binary.
+
+To install it in the system-wide bin directory, make sure you are root, then
+type `make install': this will install the man page and the documentation as
+well.
+
+The default prefix is /usr, so hq9plus will be placed in /usr/bin: if you want
+beef to be installed in another directory, use
+`make install prefix=/path/to/dir' -- the man page will be placed in
+/usr/share/man/man1 no matter what is the value of prefix. The available
+documentation will be installed into /usr/share/doc/hq9plus.
+
+#########
+# Usage #
+#########
+
+See `man hq9plus' or `hq9plus --help' for more informations on hq9plus's usage. It's
+really simple, anyway.
+
+##########
+# Author #
+##########
+
+hq9plus is Copyright (C) 2011 Hiromu Yakura <hiromu1996 AT gmail.com>
+
